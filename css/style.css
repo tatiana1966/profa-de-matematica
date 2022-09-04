@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    background: linear-gradient(315deg, #abe9cd0d 0%, #3eadcf33 74%);
+     
+}
+
+main {
+    min-height: 100vh;
+}
+
+header {
+    background: #2d4057;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 10px 15px 5px 15px;
+}
+
+navbar {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    display: inline-block;
+    overflow: auto;
+}
+navbar a {
+    color: white;
+    margin-right: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+navbar a:hover {
+    color: #f3deca;
+    text-decoration: underline 1px;
+}
+
+/*Meniu secundar*/
+navbar-secundar {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    overflow: auto;
+    
+    
+   
+}
+
+.spatiu-navbar-secundar {
+    position: fixed; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+navbar-secundar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    background-color: #2d4057;
+    padding: 10px;
+    border-radius: 10px;
+      
+}
+
+navbar-secundar a:hover {
+    background-color: #102236;
+    color: #ffffff;
+    text-decoration: none;
+       
+}
+
+footer {
+    min-height: 80px;
+    background: #2d4057;
+    text-align: center;
+    color: white;
+    padding-top: 35px;
+
+}
+
+p {
+    line-height: 150%;
+    text-indent: 30px;
+
+}
+
+li {
+    margin-top: 10px;
+    padding-left: 15px;
+    list-style-image: linear-gradient(#2d4057,#2d4057 );
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 3px 4px #2d4057;
+
+}
+    
+
+h1 {
+    font-size: 150%;
+    color: #2d4057 ;
+    
+}
+h2 {
+    font-size: 180%;
+
+}
+h3 {
+    font-size: 130%;
+    color:  #102236;
+
+}
+
+
+section {
+    padding: 90px 15%;
+}
+.logo {
+    height: 50px;
+}
+#index {
+    background: linear-gradient(rgba(0, 0, 0, 0.525), rgba(0, 0, 0, 0.264)) , url('../images/index.jpg');
+    background-size: cover;
+    min-height: 100vh;
+}
+.index-info {
+    margin-top: 25vh;
+    text-align: center;
+
+}
+.index-info h1 {
+    font-size: 260%;
+    color: white;
+    border: 2px solid gray;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #2d40578a;
+}
+.link-index {
+    color: white;
+    text-decoration: underline #fa9483 2px;
+    font-size: 20px;
+}
+
+.link-index:hover {
+    color: #f3deca;
+}
+
+.centered {
+    text-align: center;
+}
+
+.vframe {
+    width: 100%;
+    height: 30vw;
+   }
+
+.imgd {
+
+    display: block;
+    width: 600px;
+    height: 379px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cuprins {
+    display: block;
+    height: 130px;
+    margin-top: -130px;
+    visibility: hidden;
+}
+
+.clasa5  {
+    overflow: auto;
+    border-bottom: 2px hsl(226, 48%, 57%) dashed;
+}
+
+.clasa5 img {
+    height: 35vh;    
+    object-fit: cover;
+    float: right;
+    margin: 40px 10px 10px 10px;
+
+}
+
+.clasa6  {
+    overflow: auto;
+    border-bottom: 2px hsl(226, 48%, 57%) dashed;
+}
+
+.clasa6 img {
+    height: 35vh;
+    object-fit: cover;
+    float: right;
+    margin: 40px 10px 10px 10px;
+
+}
+
+.clasa7  {
+    overflow: auto;
+    border-bottom: 2px hsl(226, 48%, 57%) dashed;
+}
+
+.clasa7 img {
+    height: 35vh;
+    object-fit: cover;
+    float: right;
+    margin: 40px 10px 10px 10px;
+
+}
+.clasa8  {
+    overflow: auto;
+    border-bottom: 2px hsl(226, 48%, 57%) dashed;
+}
+
+.clasa8 img {
+    height: 35vh;
+    object-fit: cover;
+    float: right;
+    margin: 40px 10px 10px 10px;
+
+}
+
+.clasa9  {
+    overflow: auto;
+    border-bottom: 2px hsl(226, 48%, 57%) dashed;
+}
+
+.clasa9 img {
+    height: 35vh;
+    object-fit: cover;
+    float: right;
+    margin: 40px 10px 10px 10px;
+}
+
+hr {
+    border-top: 2px solid #1f5490;
+}
+.harta {
+    width: 100%;
+    height: 40vh;
+    border: 4px solid #26558a9c;
+    border-radius: 5px;
+}
+
+.row {
+    overflow: auto;
+
+}
+
+[class^="col-"] {
+    float: left;
+    padding: 0px 10px;
+}
+
+.col-50 {
+    width: 50%;
+    float: left;
+    padding: 0px 10px;
+}
+.contacte, .cform {
+    border: 2px solid #26558a9c;
+    border-radius: 5px;
+    background-color: #26558a14;
+    padding: 5px 5%; 
+    height: 325px;
+    margin-bottom: 15px;
+}
+
+.cform input, .cform textarea {
+    width: 100%;
+    font-size: 15px;
+    font-family: inherit;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+}
+
+hr {
+    border-top: 2px solid  #26558a9c;
+}
+#hamburger {
+    color:white;
+    font-size: 28px;
+    position: absolute;
+    right: 22px;
+    top: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+/* media trebuie sa fie la sfirsitul fisierului*/
+
+@media (max-width: 800px) {
+
+    body {
+        font-size: 16px;
+       
+    }
+    section {
+        padding: 90px 10px;
+        
+    }
+
+    .index-info h1 {
+        font-size: 250%;
+    }
+
+    .vframe {
+        height: 55vw;     
+       
+    }
+
+    [class^="col-"] {
+        width: 100% !important;
+    }
+    navbar a {
+        display: none;
+    }
+    
+  
+    navbar.mobile a {
+        display: block;
+        text-align: center;
+        margin-top: 12px;
+    }
+          
+
+    navbar {
+        display: block;
+    }
+
+    navbar-secundar a {
+        color: #ffffff;
+        text-decoration: none;
+        margin-inline: 200px;
+        font-size: 20px;
+        background-color: #2d4057d8;
+        padding: 5px;        
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;  
+    }
+     
+     
+    #hamburger {
+        display: block;
+
+    }
+
+    .imgd {
+        width: 100%;
+        height: 60vw;
+    }
+    .clasa9 img {
+        height: 25vh;
+        object-fit: cover;
+        float: right;
+        margin: 40px 10px 10px 10px;
+    }
+    .clasa8 img {
+        height: 25vh;
+        object-fit: cover;
+        float: right;
+        margin: 40px 10px 10px 10px;
+    
+    }
+    .clasa7 img {
+        height: 25vh;
+        object-fit: cover;
+        float: right;
+        margin: 40px 10px 10px 10px;
+    
+    }
+    .clasa6 img {
+        height: 25vh;
+        object-fit: cover;
+        float: right;
+        margin: 40px 10px 10px 10px;
+    
+    }
+    .clasa5 img {
+        height: 25vh;
+        object-fit: cover;
+        float: right;
+        margin: 40px 10px 10px 10px;
+    
+    }
+         
+}
+
+
+
+
+
+
+
+    
+    
+
+
